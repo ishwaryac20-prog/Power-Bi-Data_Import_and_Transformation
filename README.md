@@ -2,7 +2,7 @@
 
 A complete Power BI solution that transforms raw CSV files into a clean analytical model for sales performance, profit analysis, and monthly target tracking.
 
-## Table of Contents
+## 📑 Table of Contents
 - [Project Overview](#project-overview)
 - [Data Sources & Architecture](#data-sources--architecture)
 - [Data Transformation ETL](#data-transformation-etl)
@@ -13,14 +13,14 @@ A complete Power BI solution that transforms raw CSV files into a clean analytic
 
 ---
 
-## Project Overview
+## 🎯Project Overview
 - **Business Problem:** Raw sales and order data existed in multiple CSV files with inconsistent formats, making analysis difficult.
 - **Objective:** Clean, merge, and model the datasets to enable category‑wise profit analysis, state‑level filtering, and monthly target comparison.
 - **Target Audience:** Sales Managers, Business Analysts, Decision‑Makers.
 
 ---
 
-## Data Sources & Architecture
+## 🗃️ Data Sources & Architecture
 - **Source Files:**
   - List of Orders.csv  
   - Order Details.csv  
@@ -33,7 +33,7 @@ A complete Power BI solution that transforms raw CSV files into a clean analytic
 
 ---
 
-## Data Transformation ETL
+## ⚙️ Data Transformation ETL
 **Tool Used:** Power Query Editor
 
 ### Key Transformations
@@ -61,7 +61,7 @@ A complete Power BI solution that transforms raw CSV files into a clean analytic
 
 ---
 
-## Data Model & DAX
+## 🧠  Data Model & DAX
 ### Model Type
 Simple star‑schema‑like model.
 
@@ -81,7 +81,7 @@ Simple star‑schema‑like model.
 Total Amount = SUM('Order Details'[Amount])
 Total Profit = SUM('Order Details'[Profit])
 ```
-## Dashboard Features
+## 🖥️ Dashboard Features
 
 ### Page 1: Overview
 - Total Sales, Total Profit, Total Orders
@@ -100,14 +100,7 @@ Total Profit = SUM('Order Details'[Profit])
 
 ---
 
-## Design Theme
-- Clean, minimal color palette
-- Consistent font sizes
-- Proper alignment and spacing
-
----
-
-## Key Insights
+## 💡 Key Insights
 - Electronics shows the highest average profit.
 - Furniture has high order volume but moderate profit.
 - Clothing has lower profit margins.
@@ -116,7 +109,7 @@ Total Profit = SUM('Order Details'[Profit])
 
 ---
 
-## How To Use
+## 🚀 How To Use
 1. Install the latest Power BI Desktop.
 2. Download the `.pbix` file from the repository.
 3. Go to **File → Options → Data Source Settings** and update the CSV file paths.
